@@ -1,0 +1,30 @@
+{
+  "name": "advance_react",
+  "version": "1.0.0",
+  "description": "Advance React Project",
+  "main": "lib/server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olayodepossible/adv_react-proj.git"
+  },
+  "author": "Akinfemiwa Abayomi O.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olayodepossible/adv_react-proj/issues"
+  },
+  "homepage": "https://github.com/olayodepossible/adv_react-proj#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint-plugin-react": "^7.31.11"
+  },
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2"
+  }
+}

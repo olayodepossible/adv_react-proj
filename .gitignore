@@ -1,0 +1,7 @@
+.DS_STORE
+nbproject
+.idea
+.node_history
+.vscode
+node_modules/
+bundles/
