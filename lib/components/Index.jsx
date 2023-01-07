@@ -1,6 +1,18 @@
-import React from "react";
+import React, { Component } from "react";
 import ReactDOM from "react-dom";
 
-const App = () => <h2>Hello React</h2>;
+export class App extends Component {
+  state = {
+    version: "",
+  };
+
+  asyncFunc = () => Promise.resolve(17);
+  async componentDidMount() {
+    this.setState({ version: await this.asyncFunc() });
+  }
+  render() {
+    return <div>welcome react -- {this.state.version}</div>;
+  }
+}
 
 ReactDOM.render(<App />, document.getElementById("root"));
